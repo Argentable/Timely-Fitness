@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightSmall"
+    android:orientation="horizontal"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/LIST_MACHINE_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:singleLine="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/LIST_MACHINE_PHOTO"
+        android:layout_width="128px"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="6dip"
+        android:background="@color/record_background_even"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_gym_bench_50dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/LIST_MACHINE_NAME"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="16sp" />
+
+</LinearLayout>

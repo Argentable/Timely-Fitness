@@ -1,0 +1,133 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/photo"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:hapticFeedbackEnabled="false"
+                    android:isScrollContainer="false"
+                    android:maxHeight="200dp"
+                    android:minHeight="60dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/profile"
+                    android:textAlignment="center"
+                    app:civ_background_color="@color/gray"
+                    app:civ_border_color="@color/gray"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="@color/gray"
+                    app:civ_shadow_radius="10" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dip">
+
+                <com.easyfitness.views.EditableInputView
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="24sp"
+                    android:title="@string/enter_profile_name"
+                    tools:text="Profile Name" />
+
+                <com.easyfitness.views.EditableInputView
+                    android:id="@+id/gender"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="date"
+                    android:textSize="18sp"
+                    tools:text="Female" />
+
+                <com.easyfitness.views.EditableInputView
+                    android:id="@+id/birthday"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="date"
+                    android:textSize="18sp"
+                    android:title="@string/enter_birthday"
+                    tools:text="XX/XX/XX" />
+
+                <com.easyfitness.views.EditableInputView
+                    android:id="@+id/size"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="number|numberSigned"
+                    android:textSize="18sp"
+                    android:title="@string/enter_size_cm"
+                    tools:text="180 cm" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/actionCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_photo_camera"
+        app:backgroundTint="@color/launcher_background"
+        app:layout_anchor="@id/photo"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

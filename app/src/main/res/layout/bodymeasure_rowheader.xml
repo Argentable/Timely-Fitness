@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tableheader_background"
+    android:orientation="horizontal"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_weight="50"
+        android:gravity="center_vertical"
+        android:text="@string/DateLabel"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="50"
+        android:gravity="start"
+        android:text="@string/measureLabel"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:elevation="0dp"
+        android:focusable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:elevation="0dp"
+        android:focusable="true"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/LIST_WORKOUT_ID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/LIST_WORKOUT_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/LIST_WORKOUT_DESCRIPTION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        tools:text="@string/description" />
+
+
+</LinearLayout>

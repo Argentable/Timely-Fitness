@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:name="tab_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp">
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:id="@+id/tableRowFilterMachine"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/MachineLabel" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/filterMachine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DateLabel" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/filterDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/listFilterRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>

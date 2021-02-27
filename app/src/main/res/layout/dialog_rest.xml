@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/CountdownLabel"
+        android:textColor="@color/dialog_title_color"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/donut_progress"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:rotation="-90"
+            custom:donut_show_text="false" />
+
+        <gr.antoniom.chronometer.Chronometer
+            android:id="@+id/chronoValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:textSize="60sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/totalExerciseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/totalOnExerciseTitle"
+            style="@style/restdialog_total"
+            android:text="@string/total_on" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/total_weight"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/idTotalWeightMachine"
+                style="@style/restdialog_value"
+                tool:text="X" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/nb_serie"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/idNbSeries"
+                style="@style/restdialog_value"
+                tool:text="X" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalWorkoutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+
+            style="@style/restdialog_total"
+            android:text="@string/total_session" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/total_weight"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/idTotalSession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#5DBCD2"
+                android:textSize="15sp"
+                tool:text="X" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_exit"
+            style="@style/Widget.AppCompat.Button.AddButton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:text="@string/exit" />
+
+    </LinearLayout>
+
+</LinearLayout>
