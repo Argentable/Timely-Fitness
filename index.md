@@ -1,4 +1,4 @@
-### Welcome to my Passion Project
+## Welcome to my Passion Project
 
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
@@ -13,7 +13,7 @@ Welcome to my Passion Project (ignore the badge spam; you can add these to your 
 It's an Android app that helps you keep good track of your fitness, and occasionally gives you
 somewhat functional reminders to get moving.
 
-### Want to help?
+## Want to help?
 
 To create this project, I didn't just need to learn `Java`. I also had to use:
 
@@ -24,7 +24,7 @@ To create this project, I didn't just need to learn `Java`. I also had to use:
     compiled Java bytecode into something called a "build")
 
 
-### How does the code behind the app work?
+## How does the code behind the app work?
 
 20+ hours of me suffering through tutorials and the ~~wastebin fire that is Android Studio~~
 (sorry, Android Studio and IntelliJ IDEA developers) :trollface:
@@ -96,7 +96,7 @@ I'd agree with everyone's thoughts right now; it looks ***messy***. But the syst
 a lot of things, like the display size, the status of the device, and some strange abomination that
 is the light mode/dark mode switcher thingy.
 
-### Credits (to all the people whose code and library functions helped make this app just work)
+## Credits (to all the people whose code and library functions helped make this app just work)
 
 Parts of the library functions for this project were forked from other awesome creations, such as
 a project by [brodeurlv](https://www.github.com/brodeurlv) that is called
@@ -106,6 +106,6 @@ mine. I also used Google Code Snippets, which are folders of functions that the 
 Android mobile operating system wrote to help developers along, so I need to acknowledge that I
 used their functional code to help me make this project possible.
 
-# Contact GitHub Support if this website has issues
+#### Contact GitHub Support if this website has issues
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
