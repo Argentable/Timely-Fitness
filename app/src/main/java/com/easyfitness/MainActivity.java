@@ -203,8 +203,6 @@ public class MainActivity extends AppCompatActivity {
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 == PackageManager.PERMISSION_GRANTED) {
-
-            /* creation de l'arborescence de l'application */
             File folder = new File(Environment.getExternalStorageDirectory() + "/FastnFitness");
             boolean success = true;
             if (!folder.exists()) {
