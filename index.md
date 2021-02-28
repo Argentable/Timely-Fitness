@@ -1,5 +1,7 @@
 ## Welcome to my Passion Project
 
+![image](https://user-images.githubusercontent.com/58315985/109437011-ac043180-79f0-11eb-89af-220908bc7c44.png)
+
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
@@ -148,7 +150,8 @@ Here is a handy text-based infographic to help.
 Hopefully, this helped you understand the code better.
 
 ## The Development Process
-*   Building Timely Fitness wasn't easy; I had to take a lot of time and effort to learn about the Android codebase and Android Studio. Below is a slideshow that describes the process.
+*   Building Timely Fitness wasn't easy; I had to take a lot of time and effort to learn about the Android codebase and Android Studio. Below is the link to a slideshow that describes the process.
+https://docs.google.com/presentation/d/1rFMUfWgn1bcrwVKzOdXftvFdgt_OoY-N1L1Ff7-ys5w/edit?usp=sharing
 
 ## Credits (to all the people whose code and library functions helped make this app just work)
 
