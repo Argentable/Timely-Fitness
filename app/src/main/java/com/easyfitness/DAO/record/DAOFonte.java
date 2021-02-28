@@ -65,7 +65,6 @@ public class DAOFonte extends DAORecord {
 
         String selectQuery = null;
 
-        // TODO attention aux units de poids. Elles ne sont pas encore prise en compte ici.
         if (pFunction == DAOFonte.SUM_FCT) {
             selectQuery = "SELECT SUM(" + SETS + "*" + REPS + "*"
                     + WEIGHT + "), " + LOCAL_DATE + " FROM " + TABLE_NAME

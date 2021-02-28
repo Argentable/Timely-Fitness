@@ -54,7 +54,6 @@ public class DAOStatic extends DAORecord {
 
         String selectQuery = null;
 
-        // TODO attention aux units de poids. Elles ne sont pas encore prise en compte ici.
         if (pFunction == DAOStatic.MAX_FCT) {
             selectQuery = "SELECT MAX(" + WEIGHT + ") , " + SECONDS + " FROM "
                     + TABLE_NAME

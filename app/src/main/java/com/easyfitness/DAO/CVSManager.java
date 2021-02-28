@@ -394,7 +394,6 @@ public class CVSManager {
                         dbcBodyPart.add(bodyPartId, customName, customPicture, 0, BodyPartExtensions.TYPE_MUSCLE);
                         break;
                     case DAOProfile.TABLE_NAME:
-                        // TODO : import profiles
                         break;
                     case DAOMachine.TABLE_NAME:
                         DAOMachine dbc = new DAOMachine(mContext);

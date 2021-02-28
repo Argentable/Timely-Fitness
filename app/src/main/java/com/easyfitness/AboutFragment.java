@@ -132,14 +132,9 @@ public class AboutFragment extends Fragment {
                 .show();
     };
 
-    /**
-     * Create a new instance of DetailsFragment, initialized to
-     * show the text at 'index'.
-     */
     public static AboutFragment newInstance(String name, int id) {
         AboutFragment f = new AboutFragment();
 
-        // Supply index input as an argument.
         Bundle args = new Bundle();
         args.putString("name", name);
         args.putInt("id", id);
@@ -159,9 +154,6 @@ public class AboutFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.tab_about, container, false);
-
-        //TextView pAppVersion = view.findViewById(R.id.app_version_textview);
-        //pAppVersion.setText(); TODO get code version from Manifest
 
         TextView mpDBVersionTextView = view.findViewById(R.id.database_version);
         mpDBVersionTextView.setText(Integer.toString(DatabaseHelper.DATABASE_VERSION));

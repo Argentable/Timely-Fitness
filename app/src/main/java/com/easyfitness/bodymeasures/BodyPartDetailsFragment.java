@@ -395,7 +395,6 @@ public class BodyPartDetailsFragment extends Fragment implements DatePickerDialo
                 toUpdate = true;
                 break;
             case R.id.BODYPART_LOGO:
-                // TODO if it has been deleted, remove the CustomPicture
                 mInitialBodyPart.setCustomPicture(mCurrentPhotoPath);
                 toUpdate = true;
                 break;

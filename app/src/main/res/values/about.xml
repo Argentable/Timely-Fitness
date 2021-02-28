@@ -2,23 +2,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_version" translatable="false">0.19.5</string>
     <string name="database_version_label" translatable="false">Database version: </string>
-    <string name="author_label">Author: </string>
-    <string name="author" translatable="false">Charles Combes</string>
-    <string name="opensource_label" translatable="false">Open-source URL: </string>
-    <string name="opensource_url" translatable="false">https://github.com/brodeurlv/fastnfitness</string>
+    <string name="author_label">Developer: </string>
+    <string name="author" translatable="false">William Zhang</string>
+    <string name="opensource_label" translatable="false">Code URL: </string>
+    <string name="opensource_url" translatable="false">https://github.com/anksharskarp/Timely-Fitness</string>
     <string name="email_label" translatable="false">Contact the developer: </string>
-    <string name="email_url" translatable="false">fastnfitnessapp@gmail.com</string>
-    <string name="revision_history_label" translatable="false">Revision History: </string>
+    <string name="email_url" translatable="false">aerialconnection98@gmail.com</string>
+    <string name="revision_history_label" translatable="false">Changelog: </string>
     <string name="revision_history" translatable="false">\n
-v0.19.5: January 24, 2021\n
-        \t- Enhancement: Add 1 Max Rep (Brzycki\'s formula) in graph (#185 - Thank you @realGWM)\n
-        \t- Enhancement: Updated graph function - view rep count (#182)\n
-        \t- Enhancement: Added Russian language (#187 - Thank you @zayn1991)\n
-        \t- Enhancement: Source code improvements (#184 - Thank you @TacoTheDank)\n
-        \t- Bug: Unable to import after fresh install (#180)\n
-        \t- Bug: Fix wrong names for exported files (#183)\n
+    Looks like the app is still in alpha...
 	</string>
-    <string name="thanks_label" translatable="false">Libraries used in this app: </string>
+    <string name="thanks_label" translatable="false">Code libraries that I used in this app: </string>
     <string name="MPAndroidChart_content" translatable="false">MPAndroidChart (Apache 2.0)</string>
     <string name="javaCSV_content" translatable="false">JavaCSV (LGPL)</string>
     <string name="antoniomChronometer_content" translatable="false">Millisecond-Chronometer (Apache 2.0)</string>

@@ -79,7 +79,6 @@ public class Chronometer extends AppCompatTextView {
     }
 
     public void start() {
-        //mBase = SystemClock.elapsedRealtime();
         mStarted = true;
         updateRunning();
     }

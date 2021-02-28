@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="global_confirm">Confirm</string>
-    <string name="global_confirm_question">Are you sure?</string>
+    <string name="global_confirm_question">Hmm, are you sure?</string>
     <string name="global_warning">Warning</string>
     <string name="global_yes">Yes</string>
     <string name="global_no">No</string>
@@ -32,7 +32,7 @@
 
     <!-- Share text -->
     <string name="ShareText">Share</string>
-    <string name="ShareTitle">Share your perf</string>
+    <string name="ShareTitle">Share your performance info</string>
     <string name="ShareInstruction">Edit your text before sending:</string>
     <string name="ShareTextDefault">I have lifted __WEIGHT__ kg on __MACHINE__ !</string>
     <string name="ShareParamWeight" translatable="false">__WEIGHT__</string>
@@ -74,10 +74,9 @@
     <string name="failedtocreatefolder">Failed to create folder</string>
 
     <string name="deleteDB_warning">
-        This action will reset the entire application.
-        All data will be lost.
-        Are you sure?
-        This will exit the application.
+        This will reset the entire app.
+        All of your data will be deleted.
+        Timely Fitness will also close.
     </string>
     <string name="ResetAppLabel">Reset application</string>
 
@@ -168,7 +167,7 @@
         <item>@string/speed</item>
     </string-array>
 
-    <string name="maxWeightPerDuration">"Max Weight per Duration"</string>
+    <string name="maxWeightPerDuration">"Maximum Weight per Duration"</string>
     <string name="maxLengthPerDate">Max duration per Date</string>
     <string name="nbSeriesPerDate">Nb Sets per Date</string>
 
@@ -208,9 +207,9 @@
     <string name="waist">Waist</string>
     <string name="behind">Hips</string>
 
-    <string name="backDialog_confirm_text">Do you want to save before exiting?</string>
-    <string name="deleteMachine_confirm_text">Do you want to delete this exercise? All associated records will be deleted.</string>
-    <string name="renameMachine_warning_text">WARNING: This exercise name already exists. Records will be merged with the other exercise.</string>
+    <string name="backDialog_confirm_text">Do you want to save before exiting Timely Fitness?</string>
+    <string name="deleteMachine_confirm_text">Do you want to delete this exercise?</string>
+    <string name="renameMachine_warning_text">An exercise with the exact same name already exists. Information will be merged.</string>
 
 
     <!-- Photo -->
@@ -242,10 +241,10 @@
     <string name="total_machine">Total on exercise</string>
     <string name="nb_serie">Nb Sets</string>
     <string name="exit">Exit</string>
-    <string name="selectMachineDialogLabel">Select an existing exercise</string>
+    <string name="selectMachineDialogLabel">Please select an existing exercise</string>
 
     <!-- Intro slides -->
-    <string name="fillNameField">Please enter your name, at least</string>
+    <string name="fillNameField">Please enter your name</string>
     <string name="introSlide1Title">Hello</string>
     <string name="size_cm_optional">Height (cm) (optional)</string>
     <string name="create">Create</string>
@@ -253,23 +252,24 @@
     <string name="name_or_pseudo">Name / pseudonym</string>
     <string name="name_is_required">Name is required</string>
     <string name="create_a_profile">Create a profile</string>
-    <string name="introSlide1Text">Welcome to Fast N Fitness! This application is a quick and simple way to record your program and follow your progression and the evolution of your body.</string>
-    <string name="introSlide2Text">Write the name of the exercise and the details, and it will be created automatically. You can find it back easily in the list.</string>
-    <string name="introSlide2Title">Quick and easy</string>
-    <string name="titleSlideEssential">Go to the essential</string>
-    <string name="textSlideEssential">No exercises are pre-created. You create your own exercises simply depending on the name of the machine you have in your fitness place / location.</string>
+    <string name="introSlide1Text">Welcome to Timely Fitness, an app that I built for my passion project.</string>
+    <string name="introSlide2Text">All you need to do is enter your information into the app and
+        it will save it as a CSV file that you can export to your computer and open in Excel or Google Sheets!</string>
+    <string name="introSlide2Title">You can also set reminders</string>
+    <string name="titleSlideEssential">Plenty of useful features.</string>
+    <string name="textSlideEssential">You can create your own workout info.</string>
     <string name="pressBackAgain">Click BACK again to exit</string>
-    <string name="titleSlideOpenSource">It\'s open-source!</string>
-    <string name="textSlideOpenSource">Join the community and let\'s build the best fitness app together! Visit us at https://github.com/brodeurlv/fastnfitness</string>
+    <string name="titleSlideOpenSource">See my GitHub for the code.</string>
+    <string name="textSlideOpenSource">Feel free to contribute to the app at https://www.github.com/anksharskarp/Timely-Fitness</string>
     <string name="profileCreated">Profile created</string>
-    <string name="missinginfo">Missing info</string>
-    <string name="createExerciseFirst">You must create an exercise first</string>
+    <string name="missinginfo">Hmm, you are missing some info...</string>
+    <string name="createExerciseFirst">You need to create an exercise first</string>
     <string name="impossibleToDeleteProfile">Impossible to delete current profile</string>
     <string name="profileDeleted">Profile deleted</string>
     <string name="min">Min</string>
     <string name="max">Max</string>
     <string name="areyousure">Are you sure?</string>
-    <string name="edit_soon_available">Edit soon available</string>
+    <string name="edit_soon_available">I will soon have an edit available for this...</string>
     <string name="name">Name</string>
     <string name="description">Description</string>
     <string name="muscles">Muscles</string>
@@ -281,7 +281,7 @@
     <string name="ProfileLabel">Profile</string>
     <string name="edit_value">Edit value</string>
     <string name="menu_Workout">Workout</string>
-    <string name="renameMachine_error_text2">ERROR: This exercise name already exists. It is not possible to merge two exercises with same name and different types.</string>
+    <string name="renameMachine_error_text2">Another exercise with the same name already exists.</string>
     <string name="recordcopied">Record copied</string>
     <string name="imcLabel">BMI</string>
     <string name="rfmLabel">RFM</string>
@@ -293,11 +293,11 @@
     <string name="femaleGender">Female</string>
     <string name="otherGender">Other</string>
     <string name="enter_gender_here">Enter gender</string>
-    <string name="no_size_available">no size available</string>
-    <string name="no_weight_available">no weight available</string>
-    <string name="BMI_dialog_title">Body Mass Index (BMI)</string>
+    <string name="no_size_available">No size available</string>
+    <string name="no_weight_available">No weight available</string>
+    <string name="BMI_dialog_title">Body Mass Index(BMI)</string>
     <string name="BMI_formula">BMI = weight(kg) / height(m)²</string>
-    <string name="RFM_dialog_title">Relative Fat Mass Index (RFM)</string>
+    <string name="RFM_dialog_title">Relative Fat Mass Index(RFM)</string>
     <string name="RFM_female_formula">Women: RFM = 76 – (20 x (height/waist circumference))</string>
     <string name="RFM_male_formula">Men: RFM = 64 – (20 x (height/waist circumference))</string>
     <string name="access_granted">Access granted</string>
@@ -306,14 +306,14 @@
     <string name="ffmiLabel">FFMI</string>
     <string name="FFMI_dialog_title">Fat-free mass index (FFMI)</string>
     <string name="FFMI_formula">FFMI [kg/m2] = weight [kg] × (1 − (body fat [%] / 100)) / (height [m])²</string>
-    <string name="no_fat_available">no fat available</string>
+    <string name="no_fat_available">No fat available</string>
     <string name="indexLabel">Index</string>
-    <string name="what_type_of_exercise">What type of exercise ?</string>
+    <string name="what_type_of_exercise">What type of exercise is it?</string>
     <string name="exercise_type">Exercise Type:</string>
     <string name="staticExercise">Isometric</string>
     <string name="SecondsLabel_short">Secs</string>
     <string name="imported_successfully"> imported successfully</string>
-    <string name="import_failed"> import failed</string>
+    <string name="import_failed">Uh oh! Looks like the import failed :(</string>
     <string name="import_new_exercise_first">(Make sure to import new exercises first)</string>
     <string name="MachineHint">Name of your exercise</string>
     <string name="trapezius">Trapezius</string>
@@ -340,10 +340,11 @@
     <string name="light_mode">Light</string>
     <string name="dark_mode">Dark</string>
     <string name="autoui_mode">Auto</string>
-    <string name="daynightmode_settingtitle">Select your theme (restart needed)</string>
+    <string name="daynightmode_settingtitle">Please select your preferred theme. You will need to
+    restart the app after you make your selection.</string>
 
 
-    <string name="delete_bodypart_confirm">Do you want to delete this bodypart ? All associated measures will be deleted.</string>
+    <string name="delete_bodypart_confirm">Are you sure you want to delete this info?</string>
     <string name="new_measure">New measure</string>
     <string name="enter_profile_name">Enter profile name</string>
     <string name="enter_size_cm">Enter height (cm)</string>
@@ -372,7 +373,7 @@
     <string name="program_ongoing">Program ongoing:</string>
     <string name="rest_time_row">Rest Time:</string>
     <string name="sec" translatable="false">sec</string>
-    <string name="free_workout">Free workout</string>
+    <string name="free_workout">Workouts</string>
     <string name="this_program_is_empty">This program is empty</string>
     <string name="total_on">Total on</string>
     <string name="editor">Editor</string>
@@ -381,5 +382,5 @@
     <string name="unit_settings_title">Units</string>
     <string name="no_chart_data_available">No data</string>
     <string name="remove_image">Remove Image</string>
-    <string name="program_completed">You have completed your program ! Do you want to close it ?</string>
+    <string name="program_completed">Congratulations! Do you want to close the activity?</string>
 </resources>

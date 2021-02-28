@@ -1,7 +1,5 @@
 ###Welcome to my Passion Project
 
-[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
@@ -26,8 +24,8 @@ To create this project, I didn't just need to learn `Java`. I also had to use:
 
 ###How does the code behind the app work?
 
-20+ hours of me suffering through tutorials and the ~~wastebin fire that is Android Studio~~
-(sorry, Android Studio and IntelliJ IDEA developers) :trollface:
+20+ hours of me suffering through tutorials and the ~~mess that is Android Studio~~
+(sorry, Android Studio and IntelliJ IDEA developers)
 
 Take that as a joke for the cringe work that I did.
 
