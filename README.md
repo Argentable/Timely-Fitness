@@ -1,4 +1,4 @@
-### Welcome to my Timely Fitness
+### Welcome to Timely Fitness
 
 ![image](https://user-images.githubusercontent.com/58315985/109437011-ac043180-79f0-11eb-89af-220908bc7c44.png)
 
