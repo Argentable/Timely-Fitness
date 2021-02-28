@@ -27,7 +27,7 @@ To create this project, I didn't just need to learn `Java`. I also had to use:
 ## How does the code behind the app work?
 
 20+ hours of me suffering through tutorials and the ~~wastebin fire that is Android Studio~~
-(sorry, Android Studio and IntelliJ IDEA developers) :trollface:
+(sorry, Android Studio and IntelliJ IDEA developers)
 
 Take that as a joke for the cringe work that I did.
 
