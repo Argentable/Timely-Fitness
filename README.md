@@ -1,4 +1,4 @@
-###Welcome to my Passion Project
+### Welcome to my Passion Project
 
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
@@ -11,7 +11,7 @@ Welcome to my Passion Project (ignore the badge spam; you can add these to your 
 It's an Android app that helps you keep good track of your fitness, and occasionally gives you
 somewhat functional reminders to get moving.
 
-###Want to help?
+### Want to help?
 
 To create this project, I didn't just need to learn `Java`. I also had to use:
 
@@ -22,7 +22,7 @@ To create this project, I didn't just need to learn `Java`. I also had to use:
     compiled Java bytecode into something called a "build")
 
 
-###How does the code behind the app work?
+### How does the code behind the app work?
 
 20+ hours of me suffering through tutorials and the ~~mess that is Android Studio~~
 (sorry, Android Studio and IntelliJ IDEA developers)
@@ -94,7 +94,7 @@ I'd agree with everyone's thoughts right now; it looks ***messy***. But the syst
 a lot of things, like the display size, the status of the device, and some strange abomination that
 is the light mode/dark mode switcher thingy.
 
-###Credits (to all the people whose code and library functions helped make this app just work)
+### Credits (to all the people whose code and library functions helped make this app just work)
 
 Parts of the library functions for this project were forked from other awesome creations, such as
 a project by [brodeurlv](https://www.github.com/brodeurlv) that is called
