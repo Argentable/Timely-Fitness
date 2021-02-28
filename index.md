@@ -99,47 +99,47 @@ is the light mode/dark mode switcher thingy.
 So, how exactly do the files in the app work together as a framework?
 Here is a handy text-based infographic to help.
 
-    ### .github
-    *   This is the folder that powers this website that you are looking at. It contains the YML files that determine the look and feel of this website, and also includes the index.md file, which decides the text and multimedia files that go along with the website.
-    *   It also includes something called an ISSUE_TEMPLATE, which users can use to file complaints about the project, and give suggestions. The entire folder basically determines how my project and the project website is hosted on GitHub's servers
-    *   Located on 2 branches: `main` and `gh-pages`
+   ### .github
+   *   This is the folder that powers this website that you are looking at. It contains the YML files that determine the look and feel of this website, and also includes the index.md file, which decides the text and multimedia files that go along with the website.
+   *   It also includes something called an ISSUE_TEMPLATE, which users can use to file complaints about the project, and give suggestions. The entire folder basically determines how my project and the project website is hosted on GitHub's servers
+   *   Located on 2 branches: `main` and `gh-pages`
     
-    ### .gradle
-    *   Gradle is a useful build tool that helps me package the app into something called an APK archive. If you use Android, then you might be familiar with it. It contains all of the compiled .class files that my Java and XML code files compile to and autoinstalls itself on your phone. Gradle makes that possible. 
-    *   This folder was automatically generated. I didn't write all of that :)
+   ### .gradle
+   *   Gradle is a useful build tool that helps me package the app into something called an APK archive. If you use Android, then you might be familiar with it. It contains all of the compiled .class files that my Java and XML code files compile to and autoinstalls itself on your phone. Gradle makes that possible. 
+   *   This folder was automatically generated. I didn't write all of that :)
     
-    ### .idea
-    *   I use Android Studio, which is based off of the IntelliJ IDEA platform, a proprietory Integrated Development Environment for developing applications using Java or Kotlin. This folder continues settings for my IDE.
-    *   This folder also was automatically generated.
+   ### .idea
+   *   I use Android Studio, which is based off of the IntelliJ IDEA platform, a proprietory Integrated Development Environment for developing applications using Java or Kotlin. This folder continues settings for my IDE.
+   *   This folder also was automatically generated.
     
-    ### app
-    *   The actual code for the app.
+   ### app
+   *   The actual code for the app.
     
-        #### java
-        *   This contains the code that I completely wrote myself, including the backend logic of the application.
-        *   This was the bulk of my project, and the *hardest* part. I had to learn about the Android API to make this.
+       #### java
+       *   This contains the code that I completely wrote myself, including the backend logic of the application.
+       *   This was the bulk of my project, and the *hardest* part. I had to learn about the Android API to make this.
         
-        ### res
-        *   I didn't understand or learn a lot of XML, so the visual part of the app is mostly auto-generated through the template that I used *and* the drag-and-drop interface in Android Studio. It looks like a lot, and I didn't write it; the system helped me.
+       ### res
+       *   I didn't understand or learn a lot of XML, so the visual part of the app is mostly auto-generated through the template that I used *and* the drag-and-drop interface in Android Studio. It looks like a lot, and I didn't write it; the system helped me.
     
-    ### gradle
-    *   More build tools for compiling my Java bytecode. 
-    *   This folder was also automatically generated. 
+   ### gradle
+   *   More build tools for compiling my Java bytecode. 
+   *   This folder was also automatically generated. 
     
-    ### icons
-    *   Icon and logo for the app. It only took some light Photoshop skills.
+   ### icons
+   *   Icon and logo for the app. It only took some light Photoshop skills.
     
-    ### other files
-    *   .editorconfig is settings
-    *   .gitignore is settings
-    *   build.gradle is more settings for Gradle.
-    *   gradle.properties is more settings for Gradle.
-    *   gradlew is is more settings for Gradle.
-    *   gradlew.bat is more settings for Gradle.
-    *   LICENSE is the rules (which are no rules; my project is public domain).
-    *   local.properties is settings for the exported user data.
-    *   README.md is a short recap and intro about my project for users to see.
-    *   settings.gradle is is more settings for Gradle (seemed kind of obvious from the start :p)
+   ### other files
+   *   .editorconfig is settings
+   *   .gitignore is settings
+   *   build.gradle is more settings for Gradle.
+   *   gradle.properties is more settings for Gradle.
+   *   gradlew is is more settings for Gradle.
+   *   gradlew.bat is more settings for Gradle.
+   *   LICENSE is the rules (which are no rules; my project is public domain).
+   *   local.properties is settings for the exported user data.
+   *   README.md is a short recap and intro about my project for users to see.
+   *   settings.gradle is is more settings for Gradle (seemed kind of obvious from the start :p)
 
 Hopefully, this helped you understand the code better.
 
