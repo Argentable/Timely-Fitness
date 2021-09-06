@@ -7,10 +7,9 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
-Welcome to my Passion Project (ignore the badge spam; you can add these to your own README from
-[For the Badge](https://www.forthebadge.com)).
+Welcome to the Timely Fitness project!
 
-It's an Android app that helps you keep good track of your fitness, and occasionally gives you
+Timely Fitness is an Android app that helps you keep good track of your fitness, and occasionally gives you
 somewhat functional reminders to get moving.
 
 ### Want to help?
@@ -25,11 +24,6 @@ To create this project, I didn't just need to learn `Java`. I also had to use:
 
 
 ### How does the code behind the app work?
-
-20+ hours of me suffering through tutorials and the ~~mess that is Android Studio~~
-(sorry, Android Studio and IntelliJ IDEA developers)
-
-Take that as a joke for the cringe work that I did.
 
 The app works through a central file called `MainActivity.java`.
 It contains a crucial method in the code known as the "main" method, which the compiler looks for
