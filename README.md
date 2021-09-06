@@ -1,6 +1,6 @@
 ### Welcome to Timely Fitness
 
-<img src="hhttps://user-images.githubusercontent.com/58315985/132254331-dfb7337d-214b-4df1-bf46-50e8563ce9f3.png" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/58315985/132254364-3bcf827d-870c-4556-8c3a-37bfcc89484f.png" alt="drawing" width="200"/>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
